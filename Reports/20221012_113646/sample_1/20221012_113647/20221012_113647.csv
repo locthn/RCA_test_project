@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+sample_1,Chrome 106.0.5249.103,,,2022-10-12 11:36:59,2022-10-12 11:37:12,13.306s,ERROR
+,,,,,,,
+Test Cases/RCA_sample,Chrome 106.0.5249.103,,,2022-10-12 11:37:07,2022-10-12 11:37:09,1.448s,ERROR
+Start setup action : setupTestCase,Chrome 106.0.5249.103,,,2022-10-12 11:37:07,2022-10-12 11:37:08,0.553s,PASSED
+"openBrowser("""")",Chrome 106.0.5249.103,,,2022-10-12 11:37:08,2022-10-12 11:37:08,0.670s,PASSED
+"sendKeys(""randome keyword"", ""empty something"")",Chrome 106.0.5249.103,,,2022-10-12 11:37:08,2022-10-12 11:37:08,0.010s,ERROR
+Start tear down : tearDownTestCase,Chrome 106.0.5249.103,,,2022-10-12 11:37:08,2022-10-12 11:37:09,0.194s,PASSED
+,,,,,,,
+Test Cases/RCA_sample_2,Chrome 106.0.5249.103,,,2022-10-12 11:37:11,2022-10-12 11:37:12,0.754s,FAILED
+Start setup action : setupTestCase,Chrome 106.0.5249.103,,,2022-10-12 11:37:11,2022-10-12 11:37:12,0.547s,PASSED
+"verifyEqual(10, 2)",Chrome 106.0.5249.103,,,2022-10-12 11:37:12,2022-10-12 11:37:12,0.004s,FAILED
+Start tear down : tearDownTestCase,Chrome 106.0.5249.103,,,2022-10-12 11:37:12,2022-10-12 11:37:12,0.196s,PASSED
